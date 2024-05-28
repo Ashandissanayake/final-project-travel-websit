@@ -1,0 +1,41 @@
+:root
+{
+    --text-color: white;
+    --bg-color:#023020;
+    --main-color:#ffa343;
+
+    --h1-fonts: 6rem;
+    --h2-fonts: 3rem;
+    --p-font: 1rem;
+}
+
+body
+{
+    color: var(--text-color);
+    background: var(--bg-color);
+    margin: 0; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #333;
+    font: 100% / normal sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.image
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
